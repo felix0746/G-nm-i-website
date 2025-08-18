@@ -135,6 +135,22 @@ header {
     margin-bottom: 30px; /* 與下方內容的間距 */
 }
 
+.fullscreen-bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1; /* 將圖片放在內容之後 */
+    object-fit: cover; /* 確保圖片填滿容器 */
+}
+
+.fullscreen-bg img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
 #founder-section {
      background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.4)), url('images/bg-founder.webp');
 }
@@ -932,9 +948,10 @@ header {
     padding: 20px;
     box-shadow: 0 6px 20px rgba(0,0,0,0.07);
 }
-.advantage-item img {
+.advantage-item picture, .advantage-item img {
     max-width: 70px; /* 稍微縮小圖示 */
     margin-bottom: 15px;
+    display: inline-block; /* 讓 margin 生效 */
 }
 .advantage-item p {
     margin: 0;
