@@ -1,6 +1,24 @@
 export const metadata = {
-    title: '尋味聯繫 - 甘妹弄堂',
+    title: '尋味聯繫',
     description: '尋找甘妹弄堂？我們位於台北市萬華區昆明街130號，提供詳細的門市資訊、營業時間與聯絡方式。歡迎您親自前來品嚐我們的美食。',
+    keywords: ['甘妹弄堂', '聯絡方式', '門市資訊', '營業時間', '地址', '電話', '地圖'],
+
+    openGraph: {
+        title: '尋味聯繫 | 門市資訊與聯絡方式',
+        description: '我們位於台北市萬華區昆明街130號，點擊查看詳細營業時間與地圖資訊。',
+        url: 'https://g-nm-i-website.vercel.app/selection',
+        siteName: '甘妹弄堂',
+        images: [
+            {
+                url: 'https://g-nm-i-website.vercel.app/images/ubereats X 甘妹弄堂_220711_7.jpg',
+                width: 1200,
+                height: 630,
+                alt: '甘妹弄堂的美味餐點組合',
+            },
+        ],
+        locale: 'zh_TW',
+        type: 'website',
+    },
 };
 
 export default function SelectionPage() {

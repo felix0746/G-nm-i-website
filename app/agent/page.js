@@ -1,8 +1,26 @@
 import Image from 'next/image';
 
 export const metadata = {
-    title: '海外代理 - 甘妹弄堂',
+    title: '海外代理',
     description: '成為甘妹弄堂的海外代理夥伴，共同將正宗弄堂鐵板湯包的美味推廣至全球。了解我們的代理條件、營運優勢，並加入我們的行列。',
+    keywords: ['甘妹弄堂', '海外代理', '加盟', '創業', '餐飲代理', '鐵板湯包加盟'],
+
+    openGraph: {
+        title: '海外代理 | 加入甘妹弄堂的行列',
+        description: '認同我們的使命及理念？點擊了解代理條件與營運優勢，共同將正宗美味推廣至全球。',
+        url: 'https://g-nm-i-website.vercel.app/agent',
+        siteName: '甘妹弄堂',
+        images: [
+            {
+                url: 'https://g-nm-i-website.vercel.app/images/Untitled (Website).png',
+                width: 1200,
+                height: 630,
+                alt: '甘妹弄堂主廚專注製作餐點的形象照',
+            },
+        ],
+        locale: 'zh_TW',
+        type: 'website',
+    },
 };
 
 export default function AgentPage() {

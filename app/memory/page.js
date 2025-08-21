@@ -1,8 +1,26 @@
 import Image from 'next/image';
 
 export const metadata = {
-  title: '弄堂記憶 - 甘妹弄堂',
+  title: '弄堂記憶',
   description: '探索甘妹弄堂的品牌故事與弄堂記憶。從外婆陳甘妹女士的客家傳承，到融合台式與上海風味的獨家鐵板工法，每一道菜都承載著家庭的溫暖與美好。',
+  keywords: ['甘妹弄堂', '品牌故事', '弄堂記憶', '陳甘妹', '鐵板工法', '客家傳承'],
+  
+  openGraph: {
+    title: '弄堂記憶 | 甘妹弄堂的品牌故事',
+    description: '【甘妹弄堂】的名字，源自老闆第二代的外婆 陳甘妹女士。點擊探索我們的品牌故事與美食傳承。',
+    url: 'https://g-nm-i-website.vercel.app/memory',
+    siteName: '甘妹弄堂',
+    images: [
+      {
+        url: 'https://g-nm-i-website.vercel.app/images/甘妹老照片_180801_0003.jpg',
+        width: 1200,
+        height: 630,
+        alt: '創辦人陳甘妹女士的舊照片',
+      },
+    ],
+    locale: 'zh_TW',
+    type: 'website',
+  },
 };
 
 export default function MemoryPage() {
