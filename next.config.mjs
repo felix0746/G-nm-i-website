@@ -1,10 +1,7 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-    output: 'export',
-    // 圖片優化已重新啟用
-    images: {
-        unoptimized: true,
-    },
+    // No special output config needed for Vercel
+    // Image Optimization is now enabled by default
 };
 
 export default nextConfig;
