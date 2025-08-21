@@ -1,0 +1,4 @@
+{
+  "buildCommand": "cd ganmei-final && npm install && npm run build",
+  "rootDirectory": "ganmei-final"
+}
