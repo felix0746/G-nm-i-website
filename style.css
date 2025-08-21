@@ -101,7 +101,7 @@ header {
     left: 0;
     right: 0;
     bottom: 0;
-    background-color: rgba(0, 0, 0, 0.2); /* 40% 透明度的黑色遮罩 */
+    background-color: rgba(0, 0, 0, 0.2); /* 20% 透明度的黑色遮罩 */
     z-index: 1; /* 確保遮罩在背景之上 */
 }
 
