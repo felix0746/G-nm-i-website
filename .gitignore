@@ -1,3 +1,12 @@
-node_modules
-public
-.firebase
+# Dependencies
+/node_modules
+
+# Next.js build output
+/.next/
+/out/
+
+# VSCode settings
+.vscode
+
+# Environment variables
+.env*.local
