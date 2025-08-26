@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://g-nm-i-website.vercel.app/sitemap.xml
