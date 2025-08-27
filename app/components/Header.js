@@ -30,11 +30,11 @@ export default function Header() {
                 </button>
                 <nav className={`main-nav ${isNavActive ? 'is-active' : ''}`}>
                     <ul>
-                        <li><Link href="/">首頁</Link></li>
-                        <li><Link href="/memory">弄堂記憶</Link></li>
-                        <li><Link href="/news">甘妹菜單</Link></li>
-                        <li><Link href="/selection">尋味聯繫</Link></li>
-                        <li><Link href="/agent">海外代理</Link></li>
+                        <li><Link href="/" onClick={() => setIsNavActive(false)}>首頁</Link></li>
+                        <li><Link href="/memory" onClick={() => setIsNavActive(false)}>弄堂記憶</Link></li>
+                        <li><Link href="/news" onClick={() => setIsNavActive(false)}>甘妹菜單</Link></li>
+                        <li><Link href="/selection" onClick={() => setIsNavActive(false)}>尋味聯繫</Link></li>
+                        <li><Link href="/agent" onClick={() => setIsNavActive(false)}>海外代理</Link></li>
                     </ul>
                 </nav>
             </header>
